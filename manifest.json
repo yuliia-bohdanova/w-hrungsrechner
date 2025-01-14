@@ -1,0 +1,9 @@
+{
+  "name": "Waehrungsrechner",
+  "short_name": "Waehrungsrechner",
+  "theme_color": "#6e879b",
+  "background_color": "#4e5e6a",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/index.html"
+}

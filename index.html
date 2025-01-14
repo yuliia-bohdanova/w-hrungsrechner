@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Währungsrechner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <img src="img/menu.png" alt="" />
+      Währungsrechner
+    </div>
+
+    <div class="input-container">
+      <img class="flag" src="img/eu.png" alt="" />
+      <input value="100" id="euroField" type="text" />
+      <span class="currency">EUR</span>
+    </div>
+
+    <div class="container-center">
+      <img src="img/arrows.png" alt="" />
+    </div>
+
+    <div class="input-container">
+      <img class="flag" src="img/usa.png" alt="" />
+      <input value="100" id="usdField" type="text" />
+      <span class="currency">USD</span>
+    </div>
+
+    <div class="container-center">
+      <button onclick="calcEur()">Berechnen EUR</button>
+    </div>
+
+    <div class="container-center">
+      <button onclick="calcUsd()">Berechnen USD</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
